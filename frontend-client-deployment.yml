@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cloudl-client-deployment
+  name: frontend-client-deployment
 spec:
   replicas: 1
   template:
